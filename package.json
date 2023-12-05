@@ -2,7 +2,6 @@
   "name": "app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://unchana19.github.io/mbti-yours/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
