@@ -2,11 +2,11 @@
   "name": "app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://unchana19.github.io/mbti-yours",
+  "homepage": "https://unchana19.github.io/mbti-yours/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
