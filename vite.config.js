@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://unchana19.github.io/mbti-yours/"
+  base: "/mbti-yours/"
 })
