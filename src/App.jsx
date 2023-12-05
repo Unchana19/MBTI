@@ -10,7 +10,7 @@ function App() {
   return (
     <HashRouter>
       <div className='w-screen h-screen bg-slate-950 flex flex-col justify-center items-center'>
-        <Card className='h-5/6 w-11/12 bg-teal-100 rounded-3xl drop-shadow-[0_0_1.5rem_rgba(150,150,255,.25)]'>
+        <Card className='my-3 h-full w-11/12 bg-teal-100 rounded-3xl drop-shadow-[0_0_1.5rem_rgba(150,150,255,.25)]'>
           <CardBody className='flex flex-col items-center justify-center'>
             <Routes>
               <Route path="/" element={<HomePage />}></Route>
